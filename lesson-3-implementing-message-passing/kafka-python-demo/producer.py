@@ -2,7 +2,7 @@ from kafka import KafkaProducer
 
 
 TOPIC_NAME = 'items'
-KAFKA_SERVER = 'localhost:9092'
+KAFKA_SERVER = 'my-release-kafka.default.svc.cluster.local:9092'
 
 producer = KafkaProducer(bootstrap_servers=KAFKA_SERVER)
 
