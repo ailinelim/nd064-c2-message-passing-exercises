@@ -1,12 +1,11 @@
 from .enums import Status
 
 
-def create_order(order_data):
-    """
-    This is a stubbed method of retrieving a resource. It doesn't actually do anything.
-    """
-    # Do something to create the resource
-    return order_data
+def create_orders(body):
+
+    # This is a stubbed method of retrieving a resource. It doesn't actually do anything.
+    # do stuff to process the data
+    return body
 
 
 def retrieve_orders():
